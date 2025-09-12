@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import CarouselSlide from "@/components/layout/CarouselSlide"
 import {
   MessageCircle,
   Smartphone,
@@ -147,6 +148,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* App Showcase Carousel Section */}
+      <CarouselSlide />
+      
 
       <section
         id="for-guests"
